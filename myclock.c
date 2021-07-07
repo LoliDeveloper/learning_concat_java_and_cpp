@@ -6,5 +6,5 @@
 void print_time()
 {
 	time_t nt = time(NULL);
-	printf("Current time: %s", ctime(&nt));
+	printf("Current time from Debian: %s", ctime(&nt));
 }
