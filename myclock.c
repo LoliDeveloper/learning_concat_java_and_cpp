@@ -1,16 +1,10 @@
 #include <time.h>
 #include <stdio.h>
+#include "myclock.h"
 
-void print_time();
-
-int main()
-{
-	print_time();
-	return 0;
-}
 
 void print_time()
 {
 	time_t nt = time(NULL);
-	printf("%s", ctime(&nt));
+	printf("Current time: %s", ctime(&nt));
 }

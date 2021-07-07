@@ -1,4 +1,6 @@
 *.*~
+*.gch
+*.o
 *.class
 *.exe
 *.swp
